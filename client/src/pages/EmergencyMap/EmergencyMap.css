@@ -1,0 +1,13 @@
+/* #emergencyMap{
+    width: 100%;
+    height: 400px;
+} */
+
+.infoWindowText{
+    color: #333333;
+    text-align: center;
+}
+
+h1.infoWindowText{
+    text-decoration: underline;
+}

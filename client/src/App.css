@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #C9C4C4;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.btn{
+  background: #ACABAB; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left bottom, #ACABAB, #F1F1F1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top right, #ACABAB, #F1F1F1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top right, #ACABAB, #F1F1F1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right, #ACABAB, #F1F1F1); /* Standard syntax */
+
+  border-radius: 0px;
+  border: 1px #666666 solid;
+  color: #333333;
+}
+
+.btn:hover{
+  color: #313131;
+  font-weight: bolder;
+}
+
+.btn:focus{
+  font-weight: bolder;
+  color: #353535
+
+}
+
+.btn.btn-margin{
+  float: left;
+  margin-top: 8px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  color: #222222;
+  text-shadow: 1px 1px #292929;
+}
+
+.navbar-default{
+  border-radius: 0px;
+  border-bottom: solid 2px #808080;
+  background: #928F8F; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#928F8F, #A9B8C5); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#928F8F, #A9B8C5); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#928F8F, #A9B8C5); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#928F8F, #A9B8C5); /* Standard syntax */
+}
+
+.navbar-header{
+  margin-left: 10%;
+}
+
+.pageHeader{
+  background: #ACABAB; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left bottom, #ACABAB, #F1F1F1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top right, #ACABAB, #F1F1F1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top right, #ACABAB, #F1F1F1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right, #ACABAB, #F1F1F1); /* Standard syntax */
+
+  Color: #333333;
+
+  border: 2px #161616 solid;
+
+  border-radius: 30px 10px;
+
+  padding: 10px;
+
+  text-shadow: -1px -1px #222222;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

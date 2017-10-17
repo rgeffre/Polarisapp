@@ -1,0 +1,26 @@
+.resourceImg {
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.resourceImg:hover {
+    transform: scale(1.1);
+}
+.resourceLink {
+    background: black;
+    padding: 20px 0px 20px 0px;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 250px;
+    
+}
+
+.wrapper {
+    background: transparent;
+}
+

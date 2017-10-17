@@ -1,0 +1,12 @@
+.customButton{
+    color: #444444;
+    font-size: 18px;
+    background: #A73B3B; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFB7B7, #A73B3B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFB7B7, #A73B3B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFB7B7, #A73B3B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFB7B7, #A73B3B); /* Standard syntax */
+
+    border-radius: 6px 3px;
+
+}

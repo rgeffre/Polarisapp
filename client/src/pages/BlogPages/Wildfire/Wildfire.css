@@ -1,0 +1,16 @@
+/*body{
+    background: URL("./images/wildfire.jpg") no-repeat center center fixed;
+    background-size: cover;
+}*/
+
+.wrapper{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+button{
+    background: red;
+}

@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.4)
+      ),url("../../images/flooding.png");
+    background-size: cover;
+    height: 900px;
+}
+
+.blueBtn {
+    background: #337ab7;
+    color: white;
+    border-color: #337ab7;
+}
+
+.whiteText {
+    color: white;
+}
+
+.blackText {
+    color: black;
+}
+/* .pageHeader {
+    text-align: center;
+    background: transparent;
+    color: white;
+    font-family: 'Eczar', serif;
+} */
+
+.introHeader {
+    text-decoration: underline;
+}
+
+.intro {
+    font-size: 2rem;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0px 1px #3A3A3A;
+}
+
+.homePageBody{
+    background: #808080; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left bottom, #808080, rgba(204, 204, 230, 0.95)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top right, #808080, rgba(204, 204, 230, 0.95)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top right, #808080, rgba(204, 204, 230, 0.95)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, #808080, rgba(204, 204, 230, 0.95)); /* Standard syntax */
+
+    border: 2px solid  #413F4E; 
+    
+    border-radius: 15px 45px;
+
+    padding: 10px 20px;
+}
+
+.introText{
+    
+}
