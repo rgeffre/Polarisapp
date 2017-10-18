@@ -4,9 +4,6 @@ import Col from "../../components/Grid/Col";
 import Row from "../../components/Grid/Row";
 import Container from "../../components/Grid/Container";
 import Input from "../../components/Form/Input";
-import List from "../../components/List/List";
-import ListItem from "../../components/List/ListItem";
-import { Link } from "react-router-dom";
 import "./Drone.css";
 import InputModal from "../../components/Modal/inputModal";
 
@@ -19,7 +16,7 @@ class Drone extends Component {
         zipCode: "",
         phoneNumber: "",
         comment: "",
-    }
+    };
 
 
     handleInputChange = event => {
@@ -40,7 +37,7 @@ class Drone extends Component {
             }).then(res => this.loadDrones())
                 .catch(err => console.log(err));
         }
-    }
+    };
 
     render() {
         return (
