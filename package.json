@@ -12,7 +12,7 @@
     "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "dependencies": {
-    "auth0-js": "^8.10.1",
+    "auth0-js": "^9.13.2",
     "body-parser": "~1.18.2",
     "concurrently": "^3.5.0",
     "cookie-parser": "~1.4.3",
