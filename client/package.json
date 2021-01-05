@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "auth0-js": "^8.10.1",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "concurrently": "^3.5.0",
     "google-maps-react": "git+https://github.com/artokun/google-maps-react.git",
     "history": "^4.7.2",
